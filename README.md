@@ -1,5 +1,12 @@
 # Data Structures and Algorithms
 
+| Table of contents                                          |
+| ---------------------------------------------------------- |
+| [Array-reverse](./array-reverse/README.md)                 |
+| [Array-insert-shift-wb](./array-insert-shift-wb/README.md) |
+
+# Data Structures and Algorithms
+
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
 ## Repository Quick Tour and Usage
