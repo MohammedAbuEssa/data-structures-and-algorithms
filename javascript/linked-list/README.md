@@ -2,7 +2,7 @@
 
 ## **Whiteboard Process**
 
-![White-Borad](../image/Screenshot%202023-06-11%20104103.png)
+![White-Borad](../../image/Screenshot%202023-06-11%20104103.png)
 
 ## **Approach & Efficiency**
 
