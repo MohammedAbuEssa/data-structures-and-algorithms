@@ -94,11 +94,15 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   // Solution code here...
-  const newArr = [...arr, value];
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
+  for (let i = 0; i < times; i++) {
+    callback(arr, num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -148,16 +152,20 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
-  const newArr = [];
-  arr.forEach((element) => {
-    if (element % 3 === 0) {
-      newArr.push("Fizz");
-    } else if (element % 5 === 0) {
-      newArr.push("Buzz");
-    } else if (element % 5 === 0 && element % 3 === 0) {
-      newArr.push("Fizz Buzz");
+  const output = [];
+
+  numbers.forEach((number) => {
+    if (number % 3 === 0 && number % 5 === 0) {
+      output.push("Fizz Buzz");
+    } else if (number % 3 === 0) {
+      output.push("Fizz");
+    } else if (number % 5 === 0) {
+      output.push("Buzz");
+    } else {
+      output.push(number);
     }
   });
+  return output;
 };
 
 /* ------------------------------------------------------------------------------------------------
