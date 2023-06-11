@@ -99,7 +99,6 @@ const addValues = (arr, value) => {
 
 const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
-
   for (let i = 0; i < times; i++) {
     callback(arr, num);
   }
@@ -153,7 +152,6 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
-
   const output = [];
 
   arr.forEach((number) => {
@@ -167,7 +165,6 @@ const fizzbuzz = (arr) => {
       output.push(number);
     }
   });
-
   return output;
 };
 
