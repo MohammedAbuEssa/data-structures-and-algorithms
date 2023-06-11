@@ -1,0 +1,12 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "| Table of contents                                          | | ---------------------------------------------------------- | | [Array-reverse](./array-reverse/README.md)                 | | [Array-insert-shift-wb](./array-insert-shift-wb/README.md) | | [Linkedlist](./javascript/linked-list/README.md)           |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

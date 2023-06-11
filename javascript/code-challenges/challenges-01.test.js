@@ -95,7 +95,6 @@ Return the modified array.
 const addValues = (arr, value) => {
   // Solution code here...
   arr.push(value);
-  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
@@ -155,7 +154,7 @@ const fizzbuzz = (arr) => {
   // Solution code here...
   const output = [];
 
-  numbers.forEach((number) => {
+  arr.forEach((number) => {
     if (number % 3 === 0 && number % 5 === 0) {
       output.push("Fizz Buzz");
     } else if (number % 3 === 0) {
