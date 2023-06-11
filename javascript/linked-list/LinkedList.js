@@ -4,9 +4,8 @@ class LinkedList {
   constructor() {
     this.head = null;
   }
-  append(value) {
+  insert(value) {
     let newNode = new Node(value);
-    // this.counter++;
     if (!this.head) {
       this.head = newNode;
       return this;
@@ -16,10 +15,9 @@ class LinkedList {
       current = current.next;
     }
     current.next = newNode;
-    // this.tail=newNode
     return this;
   }
-  includeIn(value) {
+  includes(value) {
     if (value == this.head) {
       return true;
     }
@@ -34,7 +32,7 @@ class LinkedList {
     }
     return false;
   }
-  stringCasting() {
+  toStrin() {
     let current = this.head;
     let linkedlistStr = '"';
     while (current) {
@@ -47,15 +45,15 @@ class LinkedList {
     }
     return `"NULL"`;
   }
-  addToHead(value) {
-    let newNode = new Node(value);
+  // addToHead(value) {
+  //   let newNode = new Node(value);
 
-    if (!this.head) {
-      this.head = newNode;
-    } else {
-      newNode.next = this.head;
-      this.head = newNode;
-    }
-  }
+  //   if (!this.head) {
+  //     this.head = newNode;
+  //   } else {
+  //     newNode.next = this.head;
+  //     this.head = newNode;
+  //   }
+  // }
 }
 module.exports = LinkedList;
