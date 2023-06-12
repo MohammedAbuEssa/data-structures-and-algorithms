@@ -5,6 +5,7 @@
 | [Array-reverse](./array-reverse/README.md)                 |
 | [Array-insert-shift-wb](./array-insert-shift-wb/README.md) |
 | [Linkedlist](./javascript/linked-list/README.md)           |
+| [Array-binary-search](./array-binary-search/README.md)     |
 
 # Data Structures and Algorithms
 
