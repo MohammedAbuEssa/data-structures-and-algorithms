@@ -55,5 +55,54 @@ class LinkedList {
   //     this.head = newNode;
   //   }
   // }
+
+  append(value) {
+    const newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+    } else {
+      let current = this.head;
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = newNode;
+    }
+  }
+
+  insertBefore(value, newValue) {
+    const newNode = new Node(newValue);
+    if (!this.head) {
+      throw new Error("Empty List");
+    } else if (this.head.value === value) {
+      newNode.next = this.head;
+      this.head = newNode;
+    } else {
+      let current = this.head;
+      while (current.next && current.next.value !== value) {
+        current = current.next;
+      }
+      if (!current.next) {
+        throw new Error("Node not found in the list.");
+      }
+      newNode.next = current.next;
+      current.next = newNode;
+    }
+  }
+
+  insertAfter(value, newValue) {
+    const newNode = new Node(newValue);
+    if (!this.head) {
+      throw new Error("The list is empty.");
+    }
+    let current = this.head;
+    while (current && current.value !== value) {
+      current = current.next;
+    }
+    if (!current) {
+      throw new Error("Value not found in the list.");
+    }
+    newNode.next = current.next;
+    current.next = newNode;
+  }
 }
 module.exports = LinkedList;
