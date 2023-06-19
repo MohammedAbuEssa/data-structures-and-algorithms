@@ -1,11 +1,12 @@
 # Data Structures and Algorithms
 
-| Table of contents                                          |
-| ---------------------------------------------------------- |
-| [Array-reverse](./array-reverse/README.md)                 |
-| [Array-insert-shift-wb](./array-insert-shift-wb/README.md) |
-| [Linkedlist](./javascript/linked-list/README.md)           |
-| [Array-binary-search](./array-binary-search/README.md)     |
+| Table of contents                                                           |
+| --------------------------------------------------------------------------- |
+| [Array-reverse](./array-reverse/README.md)                                  |
+| [Array-insert-shift-wb](./array-insert-shift-wb/README.md)                  |
+| [Linkedlist](./javascript/linked-list/README.md)                            |
+| [Array-binary-search](./array-binary-search/README.md)                      |
+| [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md) |
 
 # Data Structures and Algorithms
 
