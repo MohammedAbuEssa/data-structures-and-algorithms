@@ -1,61 +1,37 @@
+# Implementation: Append & Insert Before & Insert After
+
+## **Whiteboard Process**
+
+![White-Borad](../../image/Screenshot%202023-06-19%20161513.png)
+
+[White Board Link](https://alqudscollege-my.sharepoint.com/:wb:/g/personal/23037632_student_ltuc_com/EbMYU-q_BXhHoB_l7g029Z0BBs_KUcG72huw9ooLR3Dyig?e=rCdFke)
+
+## **Approach & Efficiency**
+
+## **Solution**
+
+### Node Class Code :
+
+```javascript
+"use strict";
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+module.exports = Node;
+```
+
+### LinkedList Class Code :
+
+```javascript
 "use strict";
 const Node = require("./Node.js");
 class LinkedList {
   constructor() {
     this.head = null;
   }
-  insert(value) {
-    let newNode = new Node(value);
-    if (!this.head) {
-      this.head = newNode;
-      return this;
-    }
-    let current = this.head;
-    while (current.next) {
-      current = current.next;
-    }
-    current.next = newNode;
-    return this;
-  }
-  includes(value) {
-    if (value == this.head) {
-      return true;
-    }
-    let current = this.head;
-    while (current) {
-      if (value == current.value) {
-        return true;
-      } else if (current.next == null) {
-        return false;
-      }
-      current = current.next;
-    }
-    return false;
-  }
-  toStrin() {
-    let current = this.head;
-    let linkedlistStr = '"';
-    while (current) {
-      if (current.next === null) {
-        linkedlistStr += `{${current.value}}  -> NULL\"`;
-        return linkedlistStr;
-      }
-      linkedlistStr += `{${current.value}} -> `;
-      current = current.next;
-    }
-    return `"NULL"`;
-  }
-  // addToHead(value) {
-  //   let newNode = new Node(value);
-
-  //   if (!this.head) {
-  //     this.head = newNode;
-  //   } else {
-  //     newNode.next = this.head;
-  //     this.head = newNode;
-  //   }
-  // }
-
   append(value) {
     const newNode = new Node(value);
     if (!this.head) {
@@ -106,3 +82,4 @@ class LinkedList {
   }
 }
 module.exports = LinkedList;
+```
