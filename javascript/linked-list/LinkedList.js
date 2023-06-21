@@ -104,5 +104,27 @@ class LinkedList {
     newNode.next = current.next;
     current.next = newNode;
   }
+  kthFromEnd(k) {
+    if (k < 0) {
+      return "Exception";
+    }
+
+    let first = this.head;
+    let last = this.head;
+
+    for (let i = 0; i < k; i++) {
+      if (last === null) {
+        return "Exception";
+      }
+      last = last.next;
+    }
+
+    while (last !== null && last.next !== null) {
+      first = first.next;
+      last = last.next;
+    }
+
+    return first !== null ? first.data : null;
+  }
 }
 module.exports = LinkedList;
