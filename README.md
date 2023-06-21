@@ -7,6 +7,7 @@
 | [Linkedlist](./javascript/linked-list/README.md)                            |
 | [Array-binary-search](./array-binary-search/README.md)                      |
 | [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md) |
+| [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)              |
 
 # Data Structures and Algorithms
 
