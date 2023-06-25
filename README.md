@@ -8,6 +8,7 @@
 | [Array-binary-search](./array-binary-search/README.md)                      |
 | [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md) |
 | [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)              |
+| [linked-list-zip](./javascript/linked-list/linked-list-zip.md)              |
 
 # Data Structures and Algorithms
 

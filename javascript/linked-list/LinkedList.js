@@ -126,5 +126,27 @@ class LinkedList {
 
     return first !== null ? first.data : null;
   }
+  zipLists(list1, list2) {
+    if (!list1.head || !list2.head) {
+      return list1.head ? list1 : list2;
+    }
+  
+    let current1 = list1.head;
+    let current2 = list2.head;
+    let temp1, temp2;
+  
+    while (current1 && current2) {
+      temp1 = current1.next; 
+      temp2 = current2.next; 
+  
+      current1.next = current2;
+      current2.next = temp1;
+  
+      current1 = temp1; 
+      current2 = temp2;
+    }
+
+    return list1;
+  }
 }
 module.exports = LinkedList;
