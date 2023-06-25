@@ -1,4 +1,4 @@
-# Implementation: Append & Insert Before & Insert After
+# Implementation: linked-list-zip
 
 ## **Whiteboard Process**
 
