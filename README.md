@@ -9,6 +9,7 @@
 | [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md) |
 | [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)              |
 | [linked-list-zip](./javascript/linked-list/linked-list-zip.md)              |
+| [Stack and a Queue Implementation](./javascript/stack-and-queue/README.md)  |
 
 # Data Structures and Algorithms
 
