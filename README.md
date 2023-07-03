@@ -10,6 +10,7 @@
 | [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)              |
 | [linked-list-zip](./javascript/linked-list/linked-list-zip.md)              |
 | [Stack and a Queue Implementation](./javascript/stack-and-queue/README.md)  |
+| [Pseudo Queue](./javascript/stack-and-queue/PseudoQueue.md)                 |
 
 # Data Structures and Algorithms
 
