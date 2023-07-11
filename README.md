@@ -1,17 +1,18 @@
 # Data Structures and Algorithms
 
-| Table of contents                                                             |
-| ----------------------------------------------------------------------------- |
-| [Array-reverse](./array-reverse/README.md)                                    |
-| [Array-insert-shift-wb](./array-insert-shift-wb/README.md)                    |
-| [Linkedlist](./javascript/linked-list/README.md)                              |
-| [Array-binary-search](./array-binary-search/README.md)                        |
-| [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md)   |
-| [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)                |
-| [linked-list-zip](./javascript/linked-list/linked-list-zip.md)                |
-| [Stack and a Queue Implementation](./javascript/stack-and-queue/README.md)    |
-| [Pseudo Queue](./javascript/stack-and-queue/PseudoQueue.md)                   |
-| [Animal Shelter](./javascript/stack-and-queue/AnimalShelter/AnimalShelter.md) |
+| Table of contents                                                                                 |
+| ------------------------------------------------------------------------------------------------- |
+| [Array-reverse](./array-reverse/README.md)                                                        |
+| [Array-insert-shift-wb](./array-insert-shift-wb/README.md)                                        |
+| [Linkedlist](./javascript/linked-list/README.md)                                                  |
+| [Array-binary-search](./array-binary-search/README.md)                                            |
+| [Linked-List-New-Methods](./javascript/linked-list/LinkedlistNewMethods.md)                       |
+| [Linked-List-kth](./javascript/linked-list/linked-list-kth.md)                                    |
+| [linked-list-zip](./javascript/linked-list/linked-list-zip.md)                                    |
+| [Stack and a Queue Implementation](./javascript/stack-and-queue/README.md)                        |
+| [Pseudo Queue](./javascript/stack-and-queue/PseudoQueue.md)                                       |
+| [Animal Shelter](./javascript/stack-and-queue/AnimalShelter/AnimalShelter.md)                     |
+| [Stack-queue-brackets](./javascript/stack-and-queue/stack-queue-brackets/stack-queue-brackets.md) |
 
 # Data Structures and Algorithms
 
