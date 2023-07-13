@@ -13,6 +13,7 @@
 | [Pseudo Queue](./javascript/stack-and-queue/PseudoQueue.md)                                       |
 | [Animal Shelter](./javascript/stack-and-queue/AnimalShelter/AnimalShelter.md)                     |
 | [Stack-queue-brackets](./javascript/stack-and-queue/stack-queue-brackets/stack-queue-brackets.md) |
+| [Trees](./javascript/Trees/Binary%20Tree/BinaryTree.md)                                           |
 
 # Data Structures and Algorithms
 
