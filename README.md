@@ -14,6 +14,7 @@
 | [Animal Shelter](./javascript/stack-and-queue/AnimalShelter/AnimalShelter.md)                     |
 | [Stack-queue-brackets](./javascript/stack-and-queue/stack-queue-brackets/stack-queue-brackets.md) |
 | [Trees](./javascript/Trees/Binary%20Tree/BinaryTree.md)                                           |
+| [Tree Max](./javascript/Trees/Binary%20Tree/BinaryTreeMax.md)                                     |
 
 # Data Structures and Algorithms
 
