@@ -35,19 +35,20 @@ class BinaryTree {
   }
 
   treeMax() {
-    let result = [];
+    let maxValue = 0;
+
     let traverse = (node) => {
-      result.push(node.value);
+      if (!this.root) {
+        return null;
+      }
+      if (node.value > maxValue) {
+        maxValue = node.value;
+      }
       if (node.left) traverse(node.left);
       if (node.right) traverse(node.right);
     };
     traverse(this.root);
-    let maxValue = 0;
-    for (let i = 0; i < result.length; i++) {
-      if (result[i] > maxValue) {
-        maxValue = result[i];
-      }
-    }
+
     return maxValue;
   }
 }
