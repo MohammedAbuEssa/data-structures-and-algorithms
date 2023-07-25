@@ -15,6 +15,7 @@
 | [Stack-queue-brackets](./javascript/stack-and-queue/stack-queue-brackets/stack-queue-brackets.md) |
 | [Trees](./javascript/Trees/Binary%20Tree/BinaryTree.md)                                           |
 | [Tree Max](./javascript/Trees/Binary%20Tree/BinaryTreeMax.md)                                     |
+| [Fizz Buzz](./javascript/Trees/Binary%20Tree/FizzBuzz.md)                                         |
 
 # Data Structures and Algorithms
 
