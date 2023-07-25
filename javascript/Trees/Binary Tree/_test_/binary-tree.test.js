@@ -2,6 +2,8 @@
 const BinaryTree = require("../BinaryTree");
 const Node = require("../Node");
 const breadthFirst = require("../breadthFirst");
+const FizzBuzzBinaryTree = require("../tree-fizz-buzz");
+
 let tree = null;
 
 function createBinaryTree() {
@@ -81,5 +83,25 @@ describe("Binary Tree", () => {
     const singleNode = new BinaryTree(new Node(10));
     const result = breadthFirst(singleNode);
     expect(result).toEqual([10]);
+  });
+  it("fizzBuzzTree", () => {
+    const originalTree = createBinaryTree();
+    const fizzBuzzTree = new FizzBuzzBinaryTree(originalTree.root);
+    fizzBuzzTree.fizzBuzzTree();
+    const expectedOutput = [
+      "1",
+      "2",
+      "Fizz",
+      "Fizz",
+      "4",
+      "Buzz",
+      "7",
+      "8",
+      "Fizz",
+    ];
+
+    const result = breadthFirst(fizzBuzzTree);
+
+    expect(result).toEqual(expectedOutput);
   });
 });
