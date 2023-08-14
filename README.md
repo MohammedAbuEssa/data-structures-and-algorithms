@@ -16,6 +16,7 @@
 | [Trees](./javascript/Trees/Binary%20Tree/BinaryTree.md)                                           |
 | [Tree Max](./javascript/Trees/Binary%20Tree/BinaryTreeMax.md)                                     |
 | [Fizz Buzz](./javascript/Trees/Binary%20Tree/FizzBuzz.md)                                         |
+| [insertion Sort](./javascript/Insertion%20Sort/InsertionSort.md)                                  |
 
 # Data Structures and Algorithms
 
