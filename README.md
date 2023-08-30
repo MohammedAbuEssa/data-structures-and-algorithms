@@ -18,6 +18,7 @@
 | [Fizz Buzz](./javascript/Trees/Binary%20Tree/FizzBuzz.md)                                         |
 | [insertion Sort](./javascript/Insertion%20Sort/InsertionSort.md)                                  |
 | [Repeated Word](./javascript/Hash-Map/RepeatedWord.md)                                            |
+| [Tree-intersection](./javascript/treeIntersection//tree-intersection.md)                          |
 
 # Data Structures and Algorithms
 
