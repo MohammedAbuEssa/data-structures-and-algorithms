@@ -30,6 +30,34 @@ class Graph {
   size() {
     return this.adjacencyList.size;
   }
+  breadthFirst(startNode) {
+    const visited = new Set();
+    const result = [];
+    const queue = [];
+
+    queue.push(startNode);
+    visited.add(startNode);
+
+    while (queue.length > 0) {
+      const currentVertex = queue.shift();
+      result.push(currentVertex);
+
+      const neighbors = this.getNeighbors(currentVertex);
+
+      for (const neighborEdge of neighbors) {
+        const neighbor = neighborEdge.vertex;
+
+        if (!visited.has(neighbor)) {
+          queue.push(neighbor);
+          visited.add(neighbor);
+        }
+      }
+    }
+
+    console.log(result);
+
+    return result;
+  }
 }
 
 const graph = new Graph();
@@ -39,14 +67,18 @@ graph.addVertex("A");
 graph.addVertex("B");
 graph.addVertex("C");
 
+graph.addVertex("D");
 // Get vertices
 console.log("Vertices:", graph.getVertices());
 
 graph.addDirectedEdge("A", "B");
 graph.addDirectedEdge("B", "c");
 graph.addDirectedEdge("A", "C");
+graph.addDirectedEdge("A", "D");
 // Get neighbors of a vertex
 console.log("Neighbors of A:", graph.getNeighbors("A"));
 
 // Get the size of the graph
 console.log("Graph Size:", graph.size());
+
+graph.breadthFirst("A");
