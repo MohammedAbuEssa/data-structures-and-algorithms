@@ -60,25 +60,27 @@ class Graph {
   }
 }
 
-const graph = new Graph();
+module.exports = Graph;
 
-// Add vertices
-graph.addVertex("A");
-graph.addVertex("B");
-graph.addVertex("C");
+// const graph = new Graph();
 
-graph.addVertex("D");
-// Get vertices
-console.log("Vertices:", graph.getVertices());
+// // Add vertices
+// graph.addVertex("A");
+// graph.addVertex("B");
+// graph.addVertex("C");
 
-graph.addDirectedEdge("A", "B");
-graph.addDirectedEdge("B", "c");
-graph.addDirectedEdge("A", "C");
-graph.addDirectedEdge("A", "D");
-// Get neighbors of a vertex
-console.log("Neighbors of A:", graph.getNeighbors("A"));
+// graph.addVertex("D");
+// // Get vertices
+// console.log("Vertices:", graph.getVertices());
 
-// Get the size of the graph
-console.log("Graph Size:", graph.size());
+// graph.addDirectedEdge("A", "B");
+// graph.addDirectedEdge("B", "c");
+// graph.addDirectedEdge("A", "C");
+// graph.addDirectedEdge("A", "D");
+// // Get neighbors of a vertex
+// console.log("Neighbors of A:", graph.getNeighbors("A"));
 
-graph.breadthFirst("A");
+// // Get the size of the graph
+// console.log("Graph Size:", graph.size());
+
+// graph.breadthFirst("A");
