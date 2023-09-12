@@ -20,6 +20,8 @@
 | [Repeated Word](./javascript/Hash-Map/RepeatedWord.md)                                            |
 | [Tree-intersection](./javascript/treeIntersection//tree-intersection.md)                          |
 | [Graph](./javascript/Graphs/Graph.md)                                                             |
+| [Breadth First](./javascript/Graphs/breadthFirst.md)                                              |
+| [Graph business trip](./javascript/Graphs/graph-business-trip.md)                                 |
 
 # Data Structures and Algorithms
 
