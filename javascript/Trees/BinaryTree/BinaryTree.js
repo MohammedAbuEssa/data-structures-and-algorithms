@@ -1,6 +1,5 @@
 "use strict";
 
-const queue = require("../../stack-and-queue/Queue");
 
 class BinaryTree {
   constructor(root = null) {

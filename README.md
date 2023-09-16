@@ -13,9 +13,9 @@
 | [Pseudo Queue](./javascript/stack-and-queue/PseudoQueue.md)                                       |
 | [Animal Shelter](./javascript/stack-and-queue/AnimalShelter/AnimalShelter.md)                     |
 | [Stack-queue-brackets](./javascript/stack-and-queue/stack-queue-brackets/stack-queue-brackets.md) |
-| [Trees](./javascript/Trees/Binary%20Tree/BinaryTree.md)                                           |
-| [Tree Max](./javascript/Trees/Binary%20Tree/BinaryTreeMax.md)                                     |
-| [Fizz Buzz](./javascript/Trees/Binary%20Tree/FizzBuzz.md)                                         |
+| [Trees](./javascript/Trees/BinaryTree/BinaryTree.md)                                              |
+| [Tree Max](./javascript/Trees/BinaryTree/BinaryTreeMax.md)                                        |
+| [Fizz Buzz](./javascript/Trees/BinaryTree/FizzBuzz.md)                                            |
 | [insertion Sort](./javascript/Insertion%20Sort/InsertionSort.md)                                  |
 | [Repeated Word](./javascript/Hash-Map/RepeatedWord.md)                                            |
 | [Tree-intersection](./javascript/treeIntersection//tree-intersection.md)                          |
