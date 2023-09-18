@@ -58,25 +58,56 @@ class Graph {
 
     return result;
   }
+
+  depthFirst(node) {
+    const visited = new Set();
+    const result = [];
+
+    const dfs = (currentNode) => {
+      if (!currentNode) return;
+
+      visited.add(currentNode);
+      result.push(currentNode);
+
+      const neighbors = this.getNeighbors(currentNode);
+
+      for (const neighborEdge of neighbors) {
+        const neighbor = neighborEdge.vertex;
+        if (!visited.has(neighbor)) {
+          dfs(neighbor);
+        }
+      }
+    };
+
+    dfs(node);
+    console.log(result);
+    return result;
+  }
 }
 
 module.exports = Graph;
 
-// const graph = new Graph();
+const graph = new Graph();
 
-// // Add vertices
-// graph.addVertex("A");
-// graph.addVertex("B");
-// graph.addVertex("C");
+// Add vertices
+graph.addVertex("A");
+graph.addVertex("B");
+graph.addVertex("C");
+graph.addVertex("D");
+graph.addVertex("E");
+graph.addVertex("F");
 
-// graph.addVertex("D");
 // // Get vertices
 // console.log("Vertices:", graph.getVertices());
 
-// graph.addDirectedEdge("A", "B");
-// graph.addDirectedEdge("B", "c");
-// graph.addDirectedEdge("A", "C");
-// graph.addDirectedEdge("A", "D");
+graph.addDirectedEdge("A", "B");
+graph.addDirectedEdge("B", "c");
+graph.addDirectedEdge("A", "C");
+graph.addDirectedEdge("A", "D");
+graph.addDirectedEdge("C", "E");
+graph.addDirectedEdge("C", "F");
+
+graph.depthFirst("A");
 // // Get neighbors of a vertex
 // console.log("Neighbors of A:", graph.getNeighbors("A"));
 
