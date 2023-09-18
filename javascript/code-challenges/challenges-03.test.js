@@ -110,9 +110,10 @@ const snorlaxData = {
   weight: 4600,
 };
 
-const getBaseStatGreaterThan = (arr, minBaseStat) => {
-  // Solution code here...
-};
+function getBaseStatGreaterThan(snorlaxData, num) {
+  let newArr = snorlaxData.stats.filter((obj) => obj.baseStat > num);
+  return newArr;
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -122,9 +123,11 @@ Write a function named getStatName that is an extension of your getBaseStatGreat
 For example, getStatName(snorlaxData.stats, 50) will return ['special-defense', 'special-attack'].
 ------------------------------------------------------------------------------------------------ */
 
-const getStatName = (arr, minBaseStat) => {
-  // Solution code here...
-};
+function getStatName(snorlaxData, num) {
+  let newArr = snorlaxData.stats.filter((obj) => obj.baseStat > num);
+  let names = newArr.map((name) => name.stat.name);
+  return names;
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
